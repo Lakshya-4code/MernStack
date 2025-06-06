@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Login Window</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border-radius: 10px;
+            width: 350px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .login-container img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 3px solid #fff;
+        }
+
+        .login-container h2 {
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+
+        .login-container input[type="email"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 12px 15px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #f1f1f1;
+        }
+
+        .login-container .checkbox-container {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            font-size: 14px;
+        }
+
+        .login-container .checkbox-container input {
+            margin-right: 8px;
+        }
+
+        .login-container .checkbox-container a {
+            color: #4FC3F7;
+            text-decoration: none;
+        }
+
+        .login-container .login-btn {
+            background-color: #00b300;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .login-container .login-btn:hover {
+            background-color: #009900;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="image.png" alt="Avatar" />
+        <h2>LOGIN WINDOW</h2>
+        <form>
+            <input type="email" placeholder="Your Email Address" required />
+            <input type="password" placeholder="Your Password" required />
+            <div class="checkbox-container">
+                <input type="checkbox" required />
+                <label>Agree With <a href="#">Terms & Condition</a></label>
+            </div>
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+    </div>
+</body>
+</html>

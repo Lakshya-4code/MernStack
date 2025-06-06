@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Menu Bar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            box-shadow: 2px 2px 10px grey;
+            border-bottom: 5px solid orange;
+            margin-top: 20px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            padding: 14px 30px;
+            font-size: 20px;
+            border-right: 1px solid grey;
+            font-family: cursive;
+        }
+
+        .navbar a:last-child {
+            border-right: none;
+        }
+
+        .navbar a:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Product</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Users</a>
+        <a href="#">Login</a>
+    </div>
+</body>
+</html>
