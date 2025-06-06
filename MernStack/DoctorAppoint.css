@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.left img {
+  width: 300px;
+  margin-right: 50px;
+}
+
+.right {
+  width: 400px;
+}
+
+h2 {
+  border-bottom: 2px solid #c33;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin: 5px 0 15px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+textarea {
+  height: 80px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #c33;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #a00;
+}
