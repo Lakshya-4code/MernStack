@@ -1,0 +1,21 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+  grid-template-rows: repeat(8, 60px);
+  border: 4px solid #000;
+  width: 480px;
+  height: 480px;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
